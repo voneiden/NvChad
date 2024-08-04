@@ -9,7 +9,7 @@ return {
   },
 
   {
-    "NvChad/ui",
+    "voneiden/nvchad-ui",
     lazy = false,
     build = function()
       dofile(vim.fn.stdpath "data" .. "/lazy/ui/lua/nvchad_feedback.lua")()
